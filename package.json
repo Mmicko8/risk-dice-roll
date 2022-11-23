@@ -1,9 +1,9 @@
 {
-  "name": "react-dice-roll",
-  "version": "1.2.2",
+  "name": "risk-dice-roll",
+  "version": "1.2.4",
   "description": "A highly customizable dice roll package built in react.",
   "scripts": {
-    "build": "rm -rf dist && rollup -c",
+    "build": "rollup -c",
     "start": "rollup -c -w",
     "prepublish": "yarn build",
     "tsc": "tsc --emitDeclarationOnly"
@@ -16,13 +16,9 @@
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/avaneeshtripathi/react-dice-roll"
+    "url": "https://github.com/Mmicko8/risk-dice-roll"
   },
-  "homepage": "https://github.com/avaneeshtripathi",
-  "bugs": {
-    "url": "https://github.com/avaneeshtripathi/react-dice-roll/issues"
-  },
-  "author": "Avaneesh Tripathi",
+  "author": "Michel Matthe",
   "license": "MIT",
   "files": [
     "dist"
